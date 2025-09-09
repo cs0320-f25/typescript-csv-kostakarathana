@@ -1,5 +1,8 @@
-name,age
-Alice,23
-Bob,thirty
-Charlie,25
-Nim,22
+name,age,gender,city
+Alice,23,Female,New York
+Bob,thirty,Male,Los Angeles
+Charlie,25,Male,Chicago
+Nim,22,Female,Boston
+Diana,28,Female,San Francisco
+Eli,31,Male,Seattle
+Fay,twenty-four,Female,Austin

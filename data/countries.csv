@@ -1,0 +1,21 @@
+Country,Continent,Crime Rate (per 100k),Area (sq km),Population,Landlocked
+United States,North America,3980,9833517,331002651,No
+Canada,North America,1600,9984670,37742154,No
+Brazil,South America,2950,8515767,212559417,No
+Russia,Europe/Asia,2100,17098242,145934462,No
+China,Asia,1100,9596961,1439323776,No
+India,Asia,2200,3287263,1380004385,No
+Australia,Oceania,800,7692024,25499884,No
+Switzerland,Europe,500,41285,8715490,Yes
+Austria,Europe,600,83879,9006398,Yes
+Nepal,Asia,1200,147516,29136808,Yes
+Kazakhstan,Asia,900,2724900,18776707,Yes
+South Africa,Africa,3700,1219090,59308690,No
+Egypt,Africa,1300,1002450,102334404,No
+Mongolia,Asia,700,1564110,3278290,Yes
+Luxembourg,Europe,400,2586,634814,Yes
+Liechtenstein,Europe,200,160,38128,Yes
+Singapore,Asia,300,728,5850342,No
+Japan,Asia,650,377930,126476461,No
+Norway,Europe,450,385207,5421241,No
+Mexico,North America,3200,1964375,128932753,No
