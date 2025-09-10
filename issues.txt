@@ -1,0 +1,23 @@
+Issues (Mine)
+-----------------
+1) Failure for commas fields within quoted fields. For example, as of now, "New York, NY" would be split incorrectly.
+2) Inconsistencies are not flagged. For example, when there's more or less rows/columns than required, it might fail silently and process broken data.
+3) No header handling option
+4) Inflexible error handling: right now it's not clear how things fail. 
+
+Issues (ChatGPT (free model))
+-----------------
+1) No BOM/encoding awareness
+2) Empty fields and trailing commas are lost or mis-parsed
+3) Hardcoded delimiter
+4) No streaming / large file support
+
+Thoughts on ChatGPT response
+-----------------
+I think ChatGPT is right, but some of the issues it mentioned probably go beyond the scope of the assignment. For example, I don't believe we have to be worried about BOM encoding 
+or a hardcoded delimiter.
+
+Varying the prompt
+-----------------
+After varying the prompt, I still mostly got the same suggestions. I don't actually know enough about the assignment yet to really prompt it well enough to understand the scope
+of the project, if that makes sense. Unless I know what I'm doing as well, ChatGPT isn't much help. 

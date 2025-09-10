@@ -4,6 +4,7 @@
 
 - #### Step 1: Brainstorm on your own.
 
+
 - #### Step 2: Use an LLM to help expand your perspective.
 
 - #### Step 3: use an LLM to help expand your perspective.
