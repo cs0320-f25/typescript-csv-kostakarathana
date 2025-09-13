@@ -1,21 +1,32 @@
+// src/run-parser.ts
 import { parseCSV } from "./basic-parser";
+import { z } from "zod";
 
-/*
-  Example of how to run the parser outside of a test suite.
-*/
+const DATA_FILE = "./data/people.csv";
 
-const DATA_FILE = "./data/people.csv"; // update with your actual file name
+// Accept the header row and map it to null; validate real rows.
+const RowSchema = z.union([
+  z.tuple([z.literal("name"), z.literal("age")]).transform(() => null),
+  z.tuple([z.string(), z.coerce.number()]).transform(([name, age]) => ({ name, age })),
+]);
+
+type Row = z.infer<typeof RowSchema>;
+type Person = Exclude<Row, null>;
 
 async function main() {
-  // Because the parseCSV function needs to "await" data, we need to do the same here.
-  const results = await parseCSV(DATA_FILE)
+  // Fallback behavior (no schema) unchanged
+  const raw = await parseCSV(DATA_FILE);
+  console.log(raw);
 
-  // Notice the difference between "of" and "in". One iterates over the entries, 
-  // another iterates over the indexes only.
-  for(const record of results)
-    console.log(record)
-  for(const record in results)
-    console.log(record)
+  // Schema path: validates each row and throws on invalid data
+  try {
+    const rows = await parseCSV<Row>(DATA_FILE, RowSchema);
+    const people: Person[] = rows.filter((r): r is Person => r !== null);
+    console.log(people);
+  } catch (e) {
+    // Caller handles validation failures (e.g., "Bob,thirty")
+    console.error(String(e));
+  }
 }
 
 main();
