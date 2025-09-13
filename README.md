@@ -47,15 +47,34 @@ Issues (ChatGPT (free model))
 
 - #### 1. Correctness
 
+see reflection.txt
+
 - #### 2. Random, On-Demand Generation
 
+see reflection.txt
+
 - #### 3. Overall experience, Bugs encountered and resolved
+
+see reflection.txt
+
 #### Errors/Bugs:
+
+see reflection.txt
+
 #### Tests:
+
+see reflection.txt
+
 #### How To…
+
+see reflection.txt
 
 #### Team members and contributions (include cs logins):
 
 #### Collaborators (cslogins of anyone you worked with on this project and/or generative AI):
+
+see usage_of_ai.txt for AI use. No other students were consulted
+
 #### Total estimated time it took to complete project:
 #### Link to GitHub Repo:  
+https://github.com/cs0320-f25/typescript-csv-kostakarathana
