@@ -1,1 +1,35 @@
-1. Correctness
+1.                                 Correctness
+------------------------------------------------------------------------------------
+
+
+
+
+* The program, when needed, recognises headers as seperate from the data
+* The program flags when the inputted data is "bad" (mismatch of #rows or #columns)
+* The program can handle massive files without crashing or hitting overflow
+* If there are issues, the program flags it precisely and clearly.
+
+
+
+2.                         Random, On-Demand Generation
+------------------------------------------------------------------------------------
+
+
+
+
+This would be quite useful, as we could run for given amounts of time and 
+see what kinds of errors we get. I imagine there's lots that gets missed in
+tiny edge cases
+
+
+
+3.              Overall experience, Bugs encountered and resolved
+------------------------------------------------------------------------------------
+
+
+
+This sprint has been quite different from my previous programming experiences. 
+For instance, it felt both empowering and also like a burden to have a relatively
+unlimited use of AI, especially compared to assignments that barely even allowed
+AI for conceptual purposes. I didn't really encounter any bad bugs in my programs, 
+although I did feel a pretty steep learning curve from typescript and I still do.

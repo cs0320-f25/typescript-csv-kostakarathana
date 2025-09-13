@@ -1,0 +1,6 @@
+I used ChatGPT (unpaid account) to help me fix the parser and troubleshoot how to get it to work correctly. 
+I also used it to teach me more about what it was doing, since I was struggling to understand. I also used 
+ChatGPT to help design thorough tests and explain exactly what was being tested.
+
+
+
